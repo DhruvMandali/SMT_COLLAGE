@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+.header_first_content {
+    width: 100%;
+    display: flex;
+    padding: 10px 0px 20px 70px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: rgb(255, 128, 0);
+    color: white;
+}
+
+.header_first_content div {
+
+    width: auto;
+
+}
+
+.header_first_content div b {
+    font-size: small;
+
+}
+
+.select_languges {
+    font-size: 13px;
+    padding: 0px 100px 0px 0px;
+}
+
+.logo_content {
+    width: auto;
+    display: flex;
+    gap: 30px;
+    margin: 10px 40px;
+
+}
+
+.logo_content h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+    font-family: Britannic;
+}
+
+.hadding_logo {
+    width: 10%;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar a {
+    /* /* color: red; */
+    font-weight: 500;
+    color: brown;
+}
+
+.navbar a:hover {
+    color: brown;
+}
+.bennerline{
+    background-color: rgb(227, 138, 3);
+}
+.bennerline h6{
+    letter-spacing: 3px;
+}
+
+.Courses-offered h3{
+    font-weight: 400;
+}
+
+.Bsc-home-sicence{
+    margin: 0;
+    /* background:grey; */
+    background-color: #f5f5f5;
+}
+.course-details{
+    margin-top: 20px;
+}
+.preghph1{
+    width: auto;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.second-content p{
+    padding: 13px;
+    font-size: 17px;
+    font-weight: 500;
+   background-color: #f6f5f5;
+}
+
+.accordion{
+    margin:20px 50px;
+}
+
+
+
+
+
+
+.footer {
+    background-color: brown;
+}
+
+.footer_div {
+    padding-left: 80px;
+    /* border: 2px solid black; */
+
+
+}
+.ADDRESS {
+    margin-left: 0px;
+}
+.footer_links {
+    margin-left: 300px;
+}
+
+.main_footer {
+    width: 100.9%;
+
+    background-color: rgb(241, 128, 6);
+}
+
+.main_footer p {
+    padding-left: 90px;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width:576px) {
+    * {
+        margin: 0;
+        padding: 0;
+        /* border:  1px solid black; */
+    }
+
+    .header_first_content {
+
+        width: 102%;
+        display: block;
+        display: flex;
+        padding: 20px;
+        line-height: 25px;
+        margin: 0;
+        align-items: center;
+        gap: 0px;
+        background-color: rgb(255, 128, 0);
+        color: white;
+    }
+
+    .header_first_content div {
+
+        margin-left: 20px;
+        font-weight: 500;
+        width: 100%;
+        /* width: auto; */
+    }
+
+    .header_first_content div b {
+        font-size: small;
+    }
+
+    .select_languges {
+        font-size: 13px;
+        padding: 0px 100px 0px 0px;
+    }
+
+    .logo_content {
+        width: auto;
+        margin: 0px;
+        width: 100%;
+        display: flex;
+    }
+
+    .logo_content h1 {
+        /* margin-top:20px ; */
+        width: auto;
+        margin: 10px 5px 0px 10px;
+        font-size: 11px;
+        text-align: center;
+        color: brown;
+        font-family: Britannic;
+    }
+
+    .hadding_logo {
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 15%;
+    }
+    .bennerline{
+        background-color: rgb(227, 138, 3);
+    }
+
+    .accordion{
+        margin:20px 20px;
+    }
+    
+
+
+
+    .footer {
+        background-color: brown;
+    }
+
+    .footer_div {
+        padding-left: 80px;
+        /* border: 2px solid black; */
+    }
+
+    .ADDRESS {
+
+        margin-left: -50px;
+    }
+
+    .footer_links {
+
+        margin-left: -50px;
+    }
+
+    .main_footer {
+        margin: 0;
+        padding: 0;
+        width: 102.2%;
+        background-color: rgb(255, 132, 0);
+        
+    }
+    .main_footer p {
+        padding: 0;
+    /* border: 2px solid black; */
+        width: 60%;
+        text-align: left;
+
+        /* display: inline; */
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 150px;
+    }
+
+}

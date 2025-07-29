@@ -1,0 +1,364 @@
+/* ------------------------------------------------------headre___css */
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+.header_first_content {
+    width: 100%;
+    display: flex;
+    padding: 10px 0px 20px 70px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: rgb(255, 128, 0);
+    color: white;
+}
+
+.header_first_content div {
+
+    width: auto;
+
+}
+
+.header_first_content div b {
+    font-size: small;
+
+}
+
+.select_languges {
+    font-size: 13px;
+    padding: 0px 100px 0px 0px;
+}
+
+.logo_content {
+    width: auto;
+    display: flex;
+    gap: 30px;
+    margin: 10px 40px;
+
+}
+
+.logo_content h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+    font-family: Britannic;
+}
+
+.hadding_logo {
+    width: 10%;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar a {
+    /* /* color: red; */
+    font-weight: 500;
+    color: brown;
+}
+
+.navbar a:hover {
+    color: brown;
+}
+.bennerline{
+    background-color: rgb(227, 138, 3);
+}
+.bennerline h6{
+    letter-spacing: 2px;
+}
+
+
+
+
+/* -------------------------------------------------------`--------------main____content */
+
+.about_the_collage h5{
+    padding-top: 0;
+}
+.about_the_collage p{
+   margin-top: 15px;
+   width: 100%;
+    font-size: 19px;
+ 
+  padding-left: 45px;
+  letter-spacing: 0.7px;
+}
+.main_objectives{
+    /* border: 2px solid black; */
+}
+.main_objectives h2{
+
+    padding-left: 40px;
+    font-weight: 400;
+}
+.main_objectives_ul{
+    /* margin: 0; */
+    padding-right: 70px;
+    padding-left: 50px;
+    width: auto;
+    word-spacing: 1px;
+    font-size: 19px;
+  
+    
+}
+.main_objectives_ul li{
+    margin-left: 20px;
+}
+.above_pregr{
+    font-size: 19px;
+    /* margin: 0px; */
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.to_obtain{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.to_obtain p{
+    width:  auto;
+    margin-left: 40px;
+    font-weight: 400;
+} 
+.to_obtain ul li{
+  
+    padding-right: 50px;
+    font-size: 19px;
+    word-spacing: 1px;
+    line-height: 35px;
+}
+.to_obtain ul li b{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------- footer_content */
+
+.footer {
+    background-color: brown;
+}
+
+.footer_div {
+    padding-left: 80px;
+    /* border: 2px solid black; */
+
+
+}
+.ADDRESS {
+    margin-left: 0px;
+}
+.footer_links {
+    margin-left: 300px;
+}
+
+.main_footer {
+    width: 100.9%;
+
+    background-color: rgb(241, 128, 6);
+}
+
+.main_footer p {
+    padding-left: 90px;
+    margin-top: 10px;
+}
+
+
+
+
+/* ------------------------------------------------------------------media_qury */
+@media (max-width:576px) {
+    /*------------------------------------------------------------------ navbar_media_Qurey---------- */
+    * {
+        margin: 0;
+        padding: 0;
+        /* border:  1px solid black; */
+    }
+
+    .header_first_content {
+
+        width: 102%;
+        display: block;
+        display: flex;
+        padding: 20px;
+        line-height: 25px;
+        margin: 0;
+        align-items: center;
+        gap: 0px;
+        background-color: rgb(255, 128, 0);
+        color: white;
+    }
+
+    .header_first_content div {
+
+        margin-left: 20px;
+        font-weight: 500;
+        width: 100%;
+        /* width: auto; */
+    }
+
+    .header_first_content div b {
+        font-size: small;
+    }
+
+    .select_languges {
+        font-size: 13px;
+        padding: 0px 100px 0px 0px;
+    }
+
+    .logo_content {
+        width: auto;
+        margin: 0px;
+        width: 100%;
+        display: flex;
+    }
+
+    .logo_content h1 {
+        /* margin-top:20px ; */
+        width: auto;
+        margin: 10px 5px 0px 10px;
+        font-size: 11px;
+        text-align: center;
+        color: brown;
+        font-family: Britannic;
+    }
+
+    .hadding_logo {
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 15%;
+    }
+    .bennerline{
+        background-color: rgb(227, 138, 3);
+    }
+
+    /*---------------------------------------------------- main_content-qurey -------------------------------------*/
+        .about_the_collage{
+        padding:0px;
+       
+    }
+    .about_the_collage h5{
+        padding-top: 0;
+    }
+    .about_the_collage p{
+        margin-top: 15px;
+        width: 100%;
+         font-size: 20px;
+        text-align: justify;
+       padding-left: 0px;
+       padding-right: 0px;
+       letter-spacing: 0.7px;
+    }
+
+    .main{
+        /* border: 2px solid black; */
+        padding: 0;
+    }
+    .main_objectives h2{
+        margin: 0;
+        padding-left: 0px;
+        font-weight: 400;
+    }
+    .main_objectives_ul{
+        margin: 0;
+        padding: 0px;
+        width: auto;
+        word-spacing: 0px;
+        font-size: 19px;
+      
+        
+    }
+    .main_objectives_ul li{
+        margin: 0;
+        padding: 0;
+    }
+    .above_pregr{
+        font-size: 18px;
+        /* margin: 0px; */
+        margin-bottom: 0;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    
+
+    
+    .to_obtain{
+        padding: 0;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .to_obtain p{
+        margin: 0;
+        padding: 0px 30px 0px 20px;
+        font-weight: 400;
+    } 
+    .to_obtain ul li{
+      
+        padding-right: 0px;
+        font-size: 19px;
+        word-spacing: 1px;
+        line-height: 35px;
+    }
+    .to_obtain ul li b{
+        margin-right: 0px;
+    }
+    
+
+
+
+
+
+
+
+/* -------------------------------------------------------------footer-content-mdiea-qurey */
+    .footer {
+        background-color: brown;
+    }
+
+    .footer_div {
+        padding-left: 80px;
+        /* border: 2px solid black; */
+    }
+
+    .ADDRESS {
+
+        margin-left: -50px;
+    }
+
+    .footer_links {
+
+        margin-left: -50px;
+    }
+
+    .main_footer {
+        margin: 0;
+        padding: 0;
+        width: 102.2%;
+        background-color: rgb(255, 132, 0);
+        
+    }
+    .main_footer p {
+        padding: 0;
+    /* border: 2px solid black; */
+        width: 60%;
+        text-align: left;
+
+        /* display: inline; */
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 150px;
+    }
+
+}
